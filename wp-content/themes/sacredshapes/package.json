@@ -1,0 +1,28 @@
+{
+  "name": "sacredshapes",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "watch": "webpack --watch"
+  },
+  "author": "Thomas Brettell",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.7",
+    "babel-loader": "^8.2.2",
+    "webpack": "^5.44.0",
+    "webpack-cli": "^4.7.2"
+  },
+  "dependencies": {
+    "core-js": "^3.15.2",
+    "cursor-position": "^1.0.1",
+    "gsap": "^3.7.0",
+    "jquery": "^3.6.0",
+    "swiper": "^6.7.5"
+  },
+  "browserslist": "IE >= 11"
+}
