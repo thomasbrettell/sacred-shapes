@@ -1,9 +1,7 @@
 const path = require('path');
 
-module.exports ={
-  mode: 'development',
-  entry: ['core-js', './src/index.js'],
-  devtool: 'inline-source-map',
+module.exports = {
+  entry: './src/index.js',
   output: {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'dist'),
@@ -23,4 +21,4 @@ module.exports ={
       }
     ]
   }
-}
+};

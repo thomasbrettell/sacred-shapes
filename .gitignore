@@ -23,3 +23,5 @@ node_modules/
 *.sqlite
 
 dist/
+
+wp-config.php
