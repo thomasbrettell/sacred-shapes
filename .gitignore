@@ -22,6 +22,4 @@ node_modules/
 *.sql
 *.sqlite
 
-dist/
-
-wp-config.php
+wp-content/themes/sacredshapes/dist
