@@ -4,6 +4,8 @@ import GetCursorPosition from 'cursor-position'
 import gsap from 'gsap'
 
 
+console.log('%c index.js ', 'background: #222; color: #bada55');
+
 $(document).ready(function () {
   $(".css-transitions-only-after-page-load").each(function (index, element) {
       setTimeout(function () { $(element).removeClass("css-transitions-only-after-page-load") }, 10);
